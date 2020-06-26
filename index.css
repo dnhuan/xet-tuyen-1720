@@ -70,9 +70,29 @@ body {
   border: 2px dashed #0a45a3;
   width: 110px;
   height: 30px;
+  float: left;
+  margin-right: 20px;
 }
 
 .tieu-luan .drop-zone p {
   margin-top: 2px;
   text-align: center;
+}
+
+.tieu-luan .file-name {
+  margin-top: 3px;
+  font-size: 0.8em;
+  float: left;
+}
+
+.footer {
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8em;
 }

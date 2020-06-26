@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trường Đại học Tương Lai</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -32,54 +34,76 @@
             <div id="essay-prompt">
                 <div class="tieu-luan">
                     <p class="prompt">1. Hãy kể về một lần mà bạn cảm thấy hạnh phúc nhất.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <div class="drop-zone" id="drop-zone-1">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-1"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
                     <p class="prompt">2. Hãy kể về một lần khiến bạn cảm thấy buồn nhất.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <div class="drop-zone" id="drop-zone-2">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-2"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
-                    <p class="prompt">3. Hãy kể một lần thay đổi hoàn toàn suy nghĩ của bạn về một thành viên trong lớp.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <p class="prompt">3. Hãy kể một lần thay đổi hoàn toàn suy nghĩ của bạn về một thành viên trong lớp.
+                    </p>
+                    <div class="drop-zone" id="drop-zone-3">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-3"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
-                    <p class="prompt">4. Hãy kể một kỉ niệm (pha trò, làm gì cho thầy cô, v.v.) đáng nhớ nhất với lớp bạn.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <p class="prompt">4. Hãy kể một kỉ niệm (pha trò, làm gì cho thầy cô, v.v.) đáng nhớ nhất với lớp
+                        bạn.</p>
+                    <div class="drop-zone" id="drop-zone-4">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-4"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
                     <p class="prompt">5. Hãy kể một điều mà bạn bỏ lỡ trong 3 năm cấp 3.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <div class="drop-zone" id="drop-zone-5">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-5"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
                     <p class="prompt">6. Hãy kể về khi một thầy cô đối với bạn không còn khoảng cách.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <div class="drop-zone" id="drop-zone-6">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-6"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
-                    <p class="prompt">7. Một ngày bạn già đi và trở nên đãng trí, chọn 3 người để bạn nhớ rõ và cùng vào viện dưỡng lão.</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <p class="prompt">7. Một ngày bạn già đi và trở nên đãng trí, chọn 3 người để bạn nhớ rõ và cùng vào
+                        viện dưỡng lão.</p>
+                    <div class="drop-zone" id="drop-zone-7">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-7"></div>
+                    <br>
                 </div>
                 <div class="tieu-luan">
                     <p class="prompt">8. Nếu được quay trở lại 3 năm cấp 3, bạn sẽ muốn thay đổi điều gì?</p>
-                    <div class="drop-zone" ondrop="dropHandler(event);">
+                    <div class="drop-zone" id="drop-zone-8">
                         <p>kéo thả file</p>
                     </div>
+                    <div class="file-name" id="file-name-8"></div>
+                    <br>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <p>trùm huân & trùm minh</p>
     </div>
 </body>
 
